@@ -1,11 +1,11 @@
 import express from "express";
 import {
+  createSakib,
+  deleteSakib,
   getSakib,
   getSakibById,
-  createSakib,
   updateSakib,
-  deleteSakib,
-} from "../controller/SakibController.js";
+} from "../controller/sakibController.js";
 
 const router = express.Router();
 
@@ -13,11 +13,11 @@ const router = express.Router();
 router.get("/sakib", getSakib);
 // ROUTE GET SAKIB BY ID
 router.get("/sakib/:id", getSakibById);
-// ROUTE CREATE SAKIB 
+// ROUTE CREATE SAKIB
 router.post("/sakib", createSakib);
-// ROUTE EDIT SAKIB 
+// ROUTE EDIT SAKIB
 router.patch("/sakib/:id", updateSakib);
-// ROUTE DELETE SAKIB 
+// ROUTE DELETE SAKIB
 router.delete("/sakib/:id", deleteSakib);
 
 export default router;
