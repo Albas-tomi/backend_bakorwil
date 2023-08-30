@@ -16,6 +16,6 @@ const programModel = db.define(
 
 export default programModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

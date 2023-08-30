@@ -16,6 +16,6 @@ const usersModel = db.define(
 
 export default usersModel;
 
-// async () => {
-//   await db.sync();
-// };
+async () => {
+  await db.sync();
+};

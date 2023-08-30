@@ -16,6 +16,6 @@ const ppidModel = db.define(
 
 export default ppidModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

@@ -16,6 +16,6 @@ const videoModel = db.define(
 
 export default videoModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

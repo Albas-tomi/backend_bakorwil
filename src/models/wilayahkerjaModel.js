@@ -18,6 +18,6 @@ const wilayahkerjaModel = db.define(
 
 export default wilayahkerjaModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

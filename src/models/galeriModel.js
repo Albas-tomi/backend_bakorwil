@@ -18,6 +18,6 @@ const galeriModel = db.define(
 
 export default galeriModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

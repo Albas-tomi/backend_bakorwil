@@ -18,6 +18,6 @@ const pengumumanModel = db.define(
 
 export default pengumumanModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

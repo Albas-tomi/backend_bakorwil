@@ -17,6 +17,6 @@ const fotoModel = db.define(
 
 export default fotoModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

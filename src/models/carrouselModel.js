@@ -17,6 +17,6 @@ const carrouselModel = db.define(
 
 export default carrouselModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();

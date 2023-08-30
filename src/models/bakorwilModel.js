@@ -18,6 +18,6 @@ const bakorwilModel = db.define(
 
 export default bakorwilModel;
 
-// (async () => {
-//   await db.sync();
-// })();
+(async () => {
+  await db.sync();
+})();
