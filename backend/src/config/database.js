@@ -1,9 +1,14 @@
 import { Sequelize } from "sequelize";
 import "dotenv/config";
 
-const db = new Sequelize("bakorwil3_malang", "root", "", {
-  host: process.env.DB_HOST,
-  dialect: "mysql",
-});
+const db = new Sequelize(
+  process.env.DB_NAME,
+  process.env.DB_USERNAME,
+  process.env.DB_PASSWORD,
+  {
+    host: process.env.DB_HOST,
+    dialect: "mysql",
+  }
+);
 
 export default db;
